@@ -6,13 +6,13 @@ if __name__ == '__main__':
     lower = 0
     upper = 0
     for i in range(0,len(s)):
-        if(s[i].isalnum() or s[i:0].isalnum()):
+        if(s[i].isalnum()):
             alnum = 1
-        if(s[i].isalpha() or s[i:0].isalpha()):
+        if(s[i].isalpha()):
             alpha = 1
         if(s[i].isdigit()):
             digit = 1
-        if(s[i].islower() or s[i:0].islower()):
+        if(s[i].islower()):
             lower =1
         if(s[i].isupper()):
             upper = 1
